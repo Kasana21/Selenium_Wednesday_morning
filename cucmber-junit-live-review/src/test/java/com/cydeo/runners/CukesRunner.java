@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         plugin = {
-//dfs
+
                 "html:target/cucumber-reports.html",
                 "rerun:target/rerun.txt",
                 // "me.jvt.cucumber.report.PrettyReports:target/cucumber"
