@@ -1,0 +1,214 @@
+
+create a new package "week04" under src
+________________________________________________
+
+1) Create a new class  IfWithoutElse and add a main method
+
+☀️ We go out if it is sunny:
+-Create boolean variable sunny as true
+-Use an if statement to check if it is sunny then print:
+-"Let's put on sunglasses and go out"
+
+🔋 Check if the battery level is low and show a warning:
+-Declare an int variable named batteryLevel and assign it the value 15.
+-Use an if statement to check if batteryLevel is less than 20.
+-If true, print "Battery low!".
+
+🌦️ Check if it’s both cloudy and cold, then suggest taking a jacket
+-Declare a boolean variables isCloudy, isCold with value true.
+-Use an if statement with && (logical AND) to check if both are true.
+-If true, print "Take a jacket!".
+
+//TODO: Complete on your own:
+🏦 Check if balance(double) is 0 or less, if true print "Broke"
+
+✅ Check if passed(boolean) is Not true, then print "Test failed, opening a bug report"
+________________________________________________
+
+2) Create a new class IfElse and add a main method
+
+🍱 Check hungry:
+-declare boolean hungry.
+-if true -> "lets get some snacks" "Keep coding java"
+-if false -> "Not hungry, lets keep coding java"
+
+😷 Check if pandemic lockdown:
+-declare and initialize int variable year
+-if year is 2020 or 2021 -> "Lockdown." "wear mask, stay home , keep coding java"
+-year is something else -> "Go out, meet friends" "keep coding java"
+
+🚪 Check if a shop is open or closed:
+-Declare an int variable hour and set it to 21.
+-Use an if-else statement to check if hour is less than 22.
+-If true, print "Shop is open", else print "Shop is closed".
+
+🧑‍🎓 Check if a student passed or failed a test:
+-Declare an int variables score as 45, passingScore as 50.
+-Use an if-else statement to check if score equals passingScore or more.
+-If true, print "Passed", else print "Failed".
+________________________________________________
+
+3) Create a new class MultiBranchIf and add a main method
+
+🥇 Identify medal:
+-Declare an int variable rank as 1
+Use an if-else-if statement to print the medal:
+    -rank 1 -> "Gold"
+    -rank 2 -> "Silver"
+    -rank 3 -> "Bronze"
+    -others -> "No medal, try again next time"
+
+🍽️ Meal Recommendation Based on Time
+-Declare an int variable hour (use 24-hour format).
+	-Use if-else-if to recommend a meal based on the hour:
+	-6–10 → "Breakfast time"
+	-11–14 → "Lunch time"
+	-15–17 → "Snack time"
+	-18–21 → "Dinner time"
+	-Otherwise → "Kitchen is closed"
+
+//TODO: Complete on you own
+🌡️Temperature Category:
+-Declare an int variable temperature in Celsius.
+-Declare String variable status
+-Use if-else-if to categorize:
+	-≤ 0 → assign "Freezing" to status
+	-1–15 → assign "Cold" to status
+	-16–25 → assign  "Mild" to status
+	-26–35 → assign "Warm" to status
+	->35 → assign "Hot" to status
+-Print out status along with temperature
+________________________________________________
+
+4) Create a new class SwitchStatement and add a main method
+
+🎮 Game Menu Option:
+-Declare int variable option as 2;
+-Use a switch to print action based on menu choice:
+    1 → "Start New Game"
+    2 → "Resume Game"
+    3 → "Exit"
+    Others -> "Invalid option"
+
+🏢 Companies directory:
+-Declare int variable floor with value 1
+-Declare String variable companies
+-Use switch to assign value companies:
+    1 → "Cydeo, InfoSys, Haxaware"
+    2 → "Meta, HP, Starlink"
+    3 → "Amazon, Etsy, Ebay"
+    4 → "OpenAI, Grok, Perplexity"
+    Others -> "Invalid floor"
+-Print out floor along with companies
+
+//TODO: homework
+🚙 Tesla models starting prices:
+-Declare and initialize String model
+-Declare double variable startingPrice and assign below:
+    Model 3 → 42,990
+    Model Y → 44,990
+    Model S → 79,990
+    Model X → 79,990
+    Cybertruck → 60,990
+    Others → 0.0 and print "invalid model"
+-Print out model along with startingPrice
+________________________________________________
+
+5) Create a new class Ternary and add a main method
+
+🔢 Check if number is even or odd:
+-Declare and initialize int num
+-Use ternary to assign "Even"/"Odd" to String result then print out
+
+🧮 Maximum of Two Numbers:
+-Declare and initialize int num1 and num2
+-Use ternary to assign the larger number to max then print out
+________________________________________________
+
+5) Create a new class NestedIf and add a main method
+
+🧾 Online Payment Validation:
+-Declare boolean loggedIn and paymentInfoSaved variables;
+-Outer if checks if user is logged in
+	-Inside that, check if payment info is saved → “Proceed to payment”
+	-Else → “Please enter your payment info”
+-Else → “Login to continue”
+
+📦 Shipping Eligibility Based on Prime and Order Amount:
+-Declare boolean isPrimeMember and double orderAmount variables;
+-Declare String variable shipping
+-Outer if checks if user is isPrimeMember
+    -Inside that:
+        -order is 35.0 or more -> shipping - "Free same day shipping"
+        - otherwise -> shipping - "Free prime shipping"
+-Else(not prime):
+    -Inside that:
+        -order is 35.0 or more -> shipping - "Free regular shipping"
+        - otherwise -> shipping - "$5.99 shipping fee"
+
+-print out orderAmount along with shipping info
+________________________________________________
+
+Create a sub-package "tasks" under week04 package
+________________________________________________
+Create a new class LeapYear and add main method
+
+-Declare int variable year and check if it is a leap year or not:
+ 1) A leap year is defined as a year that is divisible by 4 and not divisible by 100
+ 2) Or, years that are divisible by 400 are also considered leap years.
+
+Ex: year is 2036 -> "2036 is a leap year"
+    year is 2025 -> "2036 is not a leap year"
+________________________________________________
+
+Create a new class GasMileageCalculator and add main method
+https://www.calculator.net/gas-mileage-calculator.html
+
+-Declare int variables currentOdometer, previousOdometer, gallons
+    formula: miles per gallon is currentOdometer -  previousOdometer divided by gallons
+
+-Calculate and assign result int mpg (miles per gallon) variable
+    if mpg is 40 or more -> Print "Great gas mileage"
+    22 or more "Good gas mileage"
+    less than that "Poor gas mileage"
+________________________________________________
+
+Create a new class CharCaseChecker and add main method
+
+-Declare and initialize char variable character
+-Using If statements with comparison to Check if a character is :
+    -uppercase(>= 'A' and <= 'Z')
+    -lowercase(>= 'a' and <= 'z')  letter or not a letter
+
+Ex: character is 'A' => "A is uppercase letter"
+character is 'v' => "v is lowercase letter"
+character is '%' => "% is not a letter"
+________________________________________________
+
+Create a new class Overtime and add main method
+
+hourlyRate = 45, hours = 45, calculate double pay
+
+if hours is more than 40:
+    print "Overtime" and
+    first 40 hours is regular hourlyRate
+    anything over 40 is overtime pay, which is 55 per hour
+    Calculate that and assign to pay
+else:
+    multiply hours by hourlyRate and assign to pay
+
+-print out weekly gross pay
+-calculate tax as 25% then print out net pay
+________________________________________________
+
+Create a new class BrowserSelector and add main method
+
+Check browser type and print out launching message:
+-Declare and initialize String variable browser
+
+Input: chrome, CHROME → Output: Setting up ChromeDriver for test automation.
+Input: firefox, FIREFOX → Output: Setting up GeckoDriver for test automation.
+Input: safari, SAFARI → Output: Setting up SafariDriver for test automation.
+Input: edge, EDGE → Output: Setting up EdgeDriver for test automation.
+Input: opera, OPERA → Output: opera is not supported for test automation.
+Input:  → Output: Invalid input: Browser is not valid.

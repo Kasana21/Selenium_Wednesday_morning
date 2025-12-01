@@ -1,0 +1,55 @@
+Open IntelliJ and Create a new java project "java-live-review"
+
+Create a package "week01" under src folder
+
+__________________________________________________________________
+
+In week01 package, add a class HelloCydeo
+Add main method
+Write code to print following:
+
+	Hello Cydeo Friends!
+	My name is Mike, I live in Virginia
+
+	I want to become SDET
+__________________________________________________________________
+
+In week01 package, add a class PrintingNumbers
+Add main method
+Write code to print following:
+0
+1
+2
+
+3
+4
+5
+
+====================
+
+In week01 package, add new class PrintSquare
+Add main method
+Write print statement to show square:
+
+# # # #
+#	  #
+# # # #
+====================
+
+In week01 package, add new class PrintTriangle
+Add main method
+Write print statement to show triangle:
+    *
+   * *
+  *   *
+ *******
+
+====================
+
+In week01 package, add new class PrintRectangle
+Add main method
+Write print statement to show Rectangle:
+ ________
+|        |
+|	     |
+|________|

@@ -1,0 +1,23 @@
+day1 Live class practices:
+
+ // TC#1: Navigations and Get methods Practice
+
+      // 1. Open a chrome browser
+      // 2. Go to: https://practice.expandtesting.com/
+      // 3. Verify url contains "expandtesting"
+      // 4. Go to https://practice.expandtesting.com/login
+      // 5. Verify url contains "login"
+      // 6. Navigate back, forward and refresh
+      // 7. Verify title is "Test Login Page for Automation Testing Practice"
+
+
+--------------------
+
+ // TC#2: Navigations and Get methods Practice
+
+      // 1. Open a chrome browser
+      // 2. Go to: https://app.seamlessly.net/index.php/login
+      // 3. Verify url contains "seamlessly"
+      // 4. Click "Forgot password?" link
+      // 5. Verify the textbox has "Username or email" as placeholder
+      // 6. Verify the button text is "Reset password"

@@ -1,0 +1,171 @@
+
+create a new package week03 under src
+________________________________________________
+create a new sub package arithmetic under week03 package
+________________________________________________
+
+1) Create a new class  ArithmeticOperators and add a main method
+
+➕ Addition Example – Total Fruits:
+-Create two variables:  apples and bananas.
+-Add (+) them to find the totalNumberOfFruits then print out
+
+➖ Subtraction Example – Wallet After Purchase:
+-Create two variables: wallet and price.
+-Subtract(-) price from wallet and store the result in remaining. and print out.
+
+✖️ Multiplication Example – Items in Boxes:
+-Create two int variables: boxes and itemsPerBox.
+-Multiply them to get totalItems then print out
+
+➗ Division Example – Time per Task:
+-Create two int variables: totalMinutes and tasks.
+-Divide totalMinutes by tasks to get minutesPerTask then print out.
+
+➗ Modulus/Remainder Example – Leftover Chocolates:
+-Create two int variables: chocolates and friends.
+-Use % to calculate how many chocolates are leftover after sharing then print out
+
+From totalSeconds calculate minutes and remainingSeconds:
+-Display in this format:
+-In 550 seconds - there are 9 minutes and 10 seconds
+________________________________________________
+
+2) Create a new class BMICalculator and add a main method
+    Program to calculate Body Mass Index
+    Formula metric system => BMI = weight / (height * height)
+
+    1. Declare and initialize double weight and height variables
+    2. Calculate BMI value using above formula and assign to double BMI variable
+    3. Print out the result as below format:
+    The Body Mass Index (BMI) is 33.33 kg/m2
+________________________________________________
+
+3) TipOptions [variables, operators, concatenation]
+
+Declare and assign the following variables
+   String food (list of any 3 food items),
+   Assign price for each item - item1Price, item2Price, item3Price
+   Calculate total (amount you owe) includes all 3 item prices plus 5% tax
+
+show the receipt of all the items and total cost of the bill
+then display 3 tip options and how much they would cost.
+show the tip for 10%, 18% and 25%
+________________________________________________
+
+create sub package "shorthand_unary" under week03 package
+________________________________________________
+
+4) Create a new class UnaryOperators and add a main method
+
+New email notification. Your received one more email:
+-declare int inbox with value 10
+-increase inbox by 1 and print out inbox count
+
+During the gaming, one life is lost:
+-declare int lives with value 3
+-decrease lives by 1 and print out Lives left
+
+Show a negative temperature reading:
+-declare int temperature with value 15.
+-use - to change it to negative and assign to belowZero variable.
+-print the result.
+________________________________________________
+
+5) Create a new class ShorthandOperators and add main method
+
+You scored 5 more points in a game:
+-declare an int variable called score and set it to 10.
+-use the += operator to add 5 points then print updated total score
+
+You spent $30 from your $100 wallet:
+-declare int wallet with value 100.
+-use -= to subtract 30 then print money left
+
+You restock 4 times more boxes:
+-declare int boxes with value 3
+-use *= to multiply by 4 then print out total boxes
+
+You plan to read a 100-page book over 5 days:
+-declare int totalPages with value 100
+-use /= to divide by 5 then print how many pages per day
+
+You share 17 candies with 6 friends:
+-declare int candies with value 17
+-use %= to find out leftovers then print out leftover candies
+
+Parking lot cars are coming and leaving:
+-declare int cars with value 10
+-5 more cars parked then print total cars
+-3 cars left then print total cars
+-2 times more cars parked then print total cars
+________________________________________________
+
+6) Create a new class GiftCard and add main method
+
+    declare and assign a gift card with $200.0
+    declare and assign String variable items and assign ""
+    buying 2 items:
+    buy item 1(sneakers) for $45 price and subtract from your gift card,
+        also add item name to items
+    buy item 2(jacket) for $75.50 price and subtract from your gift card,
+        also add item name to items
+    print the remaining balance of your gift card and all items
+________________________________________________
+
+create sub package "comparison" under week03 package
+________________________________________________
+
+7) Create a new class ComparisonOperators and add main method
+
+Check if your test score is greater than the passing score:
+-declare int testScore with value 85
+-declare int passMark with value 50
+-use > to compare and store result in a boolean variable passed then print it
+
+Check if the room temperature is below freezing:
+-declare int temperature with value -2
+-use < to compare with 0 and store result in a boolean isFreezing then print it
+
+Check if your age is enough to vote (18 or older):
+-declare int age with value 18
+-use >= to check if age is at least 18(canVote) then print result
+
+Check if luggage weight is within 23kg airline limit:
+-declare int luggageWeight with value 20
+-use <= to check(isWithinLimit) and print result
+
+Check if the entered PIN is correct:
+-declare int enteredPin with value 1234
+-declare int correctPin with value 1234
+-use == to compare(isCorrect) then print the result
+
+Check if a seat is not already reserved:
+-declare int selectedSeat with value 22
+-declare int reservedSeat with value 15
+-use != to compare(seatAvailable) and print the result
+________________________________________________
+8) Create a new class LogicalOperators and add main method
+
+Check if you can unlock a device (must know password and have fingerprint):
+-declare boolean knowsPassword with value true
+-declare boolean hasFingerprint with value true
+-use && to check both conditions then print result
+
+Check if you can get a discount (if you're a student OR a senior):
+-declare boolean isStudent with value false
+-declare boolean isSenior with value true
+-use || to check either condition then print result
+
+Check if it is NOT both sunny (so you stay in):
+-declare boolean isSunny with value true
+-use ! to check if it’s NOT both sunny, then print result
+________________________________________________
+
+8) Create a new class ShirtSelection and add main method
+
+Only buy shirt if (size is medium) and (color is blue or tan) and (price between $10 - $30)
+-declare char size with value M
+-declare String color with value blue
+-declare double price with value 15
+-use logical operators to assign boolean willBuy then print out result

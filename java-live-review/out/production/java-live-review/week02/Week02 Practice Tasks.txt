@@ -1,0 +1,212 @@
+
+Create a new package "week02" under src folder
+________________________________________________
+
+1) Create new class PrintVsPrintln and add main method
+- print below using 2 println methods:
+Java
+SDET
+- print "Java SDET" using 2 print methods
+- print "1) Escape sequences 2) Variables 3) Primitives" using separate print statements
+
+________________________________________________
+
+2) Create new class EscapeSequences and add main method
+- print below using 1 println method:
+Java
+SDET
+- print "Java   SDET" with tab in the middle
+- print "Hello Cydeo "Batch 40" Friends!" using "" double quotes
+- print "Let's code "java" everyday!"
+- print "/Users/cydeo/IdeaProjects/java-live-review"
+- print "C:\Users\cydeo\IdeaProjects\java-live-review"
+
+________________________________________________
+
+3) Create new class PrintTriangle and add main method
+
+Write print statement to show triangle by using single println:
+    *
+   * *
+  *   *
+ *******
+
+________________________________________________
+
+Create new package "variables" under week02 package
+________________________________________________
+
+4) Create new class WholeNumbers and add main method
+
+-declare variable students
+-assign 128 to students variable. Initialize students with 128
+-print out the value of students
+-change value of students variable to 150 then print again
+-declare + initialize int variable teachers with value 5
+-print out the value
+-change teachers variable value to 15 then print again
+
+Declare one variable of each type: byte, short, int, and long.
+Assign them valid values and print all.
+-age as byte with value 25
+-year as short with value 2025
+-population as int with value 100_000
+-distance as long with value 15000000000
+
+Imagine you’re booking a train ticket.
+The system assigns a ticket number (long).
+You want to store a backup copy of it in another variable.
+Assign the value and print both.
+-Declare long variable originalTicketNumber with value 9876543210L
+-Declare long backupTicketNumber and assign value of originalTicketNumber
+
+You want to assign value of count to bananas so they have both values
+-declare int count and assign 31
+-declare int bananas and assign value of count
+-print "count of bananas = 31" using concatenation and variable
+________________________________________________
+
+5) Create new class DecimalNumbers and add main method
+
+Let's practice float and double:
+-declare float variable temperature and assign 36.5F then print out
+-declare double variable appleStockPrice and assign current value then print out
+-declare a variable that can hold wooden spoon price and assign the value
+-print it then change value to some other one and print again
+
+You are comparing the prices of two laptops:
+- declare and initialize double variable laptopPriceA with 799.99;
+- declare and initialize double variable laptopPriceB with 999.49;
+- using concatenation print "Laptop A Price: $799.99";
+                             "Laptop B Price: $999.49";
+
+Two product ratings are same:
+- declare and initialize double variable rating with 4.6;
+- declare double variable anotherRating with same value of rating;
+- print using variables and concatenation:
+    "Product 1 rating is 4.6 and Product 2 rating is 4.6"
+________________________________________________
+
+6) Create new class CharType and add main method
+
+You are assigning each letter of "Java" into separate char variables:
+- declare char variables first, second and assign 'J','a'
+- declare char variables third, fourth and assign ASCII decimal values for 'v','a'
+- print out each variable separately:
+    J
+    a
+    v
+    a
+
+You represent game levels using characters: E(Easy), M(Medium), H(Hard)
+- declare char variable levelOne with value 'E'
+- declare char variable levelTwo with value 'M'
+- declare char variable levelThree with value 'H'
+- print out each value:
+    Level One: E
+    Level Two: M
+    Level Three: H
+
+Let's store and display different currency symbols using Unicode. $, €:
+- declare char variable dollar with value '\u0024'
+- declare char variable euro with value '\u20AC'
+- print out using variables:
+    "Dollar Symbol: $"
+    "Euro Symbol: €"
+
+________________________________________________
+
+7) Create new class BooleanType and add main method
+
+You are looking at Amazon products for sales with free shipping:
+- declare boolean variable freeShipping with value true
+- declare boolean variable onSale with value false
+- print out values
+
+Mike did not come to class today:
+- declare boolean variable isMikePresent with matching value
+- print out following format using variable:
+   "Is the student present? false"
+
+You are checking if your package is delivered, it is yes.
+- declare boolean variable isDelivered with matching value and print out
+
+You are at the traffic light and checking if green light, it is still red:
+- declare boolean variable isGreenLight with matching value and print out
+________________________________________________
+
+8) Create new class Today and add main method
+
+Let's assign today's date details into variables:
+- declare integer variable year and assign current year
+- declare String variable month and assign current month
+- declare byte variable day and assign today's day
+- declare String variable weekDay and assign today's week day
+- declare int variable hour and assign current hour
+- declare int variable minute and assign current minute
+
+- print out each variable with string concatenation
+- print out all values in single statement using concatenation with format:
+    "Sunday, January 26, 2025 - 2:47 PM EST"
+
+________________________________________________
+
+9) Create new class MyComputer and add main method
+
+- declare variables model, CPU, ram, storage, price, onSale
+- assign values from this laptop and print out each variable:
+https://www.amazon.com/i7-13620H-Processor-GeForce-Display-ANV15-51-73B9/dp/B0CMRGBXM9
+
+- reuse the same variables and re-assign details from this laptop:
+https://www.amazon.com/Apple-MacBook-Laptop-12-core-16-core/dp/B0DLHY2BJ6
+
+- print out in this format using the variables:
+Apple 2024 MacBook Pro Laptop with M4 Pro, 12-core CPU, 24GB Unified Memory, 512GB SSD Storage, $1,799.00
+
+________________________________________________
+
+10) Create new class PrimitiveCasting and add main method
+
+You are putting small primitive to larger one:
+- declare byte variable small and assign 100
+- declare int variable large and assign small
+- print out values
+
+An item costs $5, and you want to calculate price with tax as a double.
+- declare int variable itemPrice and assign 5
+- declare double variable finalPrice and assign itemPrice
+- print out values and observe decimals
+
+User’s account balance is rounded to the nearest whole dollar for display.
+- declare double variable balance and assign 1250.75
+- declare int variable roundedBalance and assign balance with casting
+- print out rounded balance
+
+A vending machine only stores item codes as bytes:
+- declare integer variable itemCode and assign 120
+- declare byte variable storedCode and assign itemCode with casting
+- print out stored code
+
+________________________________________________
+
+11) Create new class ParisOlympics and add main method
+
+You are creating a Paris Olympics result table:
+https://www.olympics.com/en/olympic-games/paris-2024/medals
+
+- use following variables and assign values from the table below:
+
+    integer rank, String flag, country;
+    int variables gold, silver, bronze, total
+
+    Unicode for US flag - "\uD83C\uDDFA\uD83C\uDDF8"
+    Unicode for China flag - "\uD83C\uDDE8\uD83C\uDDF3"
+    //Flags might appear differently in Windows computers
+
+- print headers first
+- use concatenation with variables and print values in format like below:
+- reuse same variables for China values then print again
+
+Team                Gold	Silver  Bronze	Total
+1 🇺🇸 United States  40       44     42      126
+2 🇨🇳 China          40       27     24      91

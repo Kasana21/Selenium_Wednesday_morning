@@ -1,0 +1,83 @@
+
+
+Create a new package "week06" under src
+________________________________________________
+
+1) Create a new class VoidMethods and add a main method
+
+🗒️ Print message
+-Create a method called printMessage()
+-It should print “Hello there! Let's code Java!”
+-Call it twice from main()
+
+🔔 Ring a door Bell 3 Times
+-Create a method called ringBell() that prints "🔔 Ring Ring!"
+-Inside main(), use a loop to call the method 3 times
+
+🙋 Greet a User by Name
+-Create a method called greetUser(String name)
+-It should print: Hello, <name>! Welcome back!
+-Call it from main() with different names
+
+📦 Print Box Label with ID
+-Create a method printBoxLabel(int id)
+-It should print:
+###################
+# Box ID: <id>
+###################
+-Call it with multiple numbers
+
+🛍️ Check Discount Eligibility
+-Create method checkDiscount(double total)
+-If total is over $100, print “You get a discount!”
+-Otherwise, print “No discount today.”
+
+🛫 Can Book Flight (passport OR ID)
+-Create a method called canBookFlight(boolean hasPassport, boolean hasIDCard)
+-If person has either a passport OR an ID card, print “Booking successful”
+-Otherwise, print “Cannot book flight”
+
+📣 Repeat a Word
+-Create method repeatWord(String word, int times)
+-It should print the word that many times in single line
+
+2) Create a new class JobEligibility and add a main method
+🏢 Job Eligibility (age and experience)
+-Create method eligible() -> prints “Eligible for job”
+-Create methods inEligible() -> prints "Not eligible for this job"
+-Create a method checkJobEligibility(int age, int experience)
+-If age is at least 21 AND experience is 2 years or more, call eligible()
+-Else, call inEligible()
+________________________________________________
+
+3) Create a new class MethodsWithReturn and add a main method
+
+⏳ Current year:
+-Create method getCurrentYear()
+-Returns 2025 then call in main()
+
+🧮Age calculator:
+-Create method calculateAge(int birthYear)
+-Returns age
+
+📦 Check Free Shipping Eligibility
+-Create a method hasFreeShipping(double orderTotal)
+-Return true if orderTotal is at least $50, else false
+-Call and print the result
+
+$€💴 Convert USD to other currencies:
+-Create method convertDollars(double USDAmount, String currency)
+ Use the following sample rates for currency conversions and return result
+    1 USD = 0.94 EUR
+    1 USD = 149.51 JPY
+    1 USD = 40.94 TRY
+    1 USD = 1,395.22 KRW
+    1 USD = 83.97 INR
+
+✅ Calculate Total Price with Tax
+-Create a method calculateTax(double price) that returns 10% tax
+-Create another method calculateTotal(double price) that:
+    -Calls calculateTax(price)
+    -Adds tax to original price
+    -Returns total price
+-In main(), call calculateTotal() and print the result

@@ -1,0 +1,206 @@
+Create a new package "utils" under src
+________________________________________________
+
+1)  ⏰ BreakTimer
+
+Build a Java program that acts like a digital break timer.
+It will count down from a specified number of minutes and show the time left in MM:SS format.
+When the timer ends, it will display a message
+"BREAK TIME IS OVER. PLEASE COME BACK TO CLASS"
+
+-Create a new class BreakTimer
+
+✅ Part 1. The method setBreakTime(int minutes) will:
+    •	Check if the minutes are greater than 0.
+    •	Print a message showing the break time duration and the expected end time.
+    •	Start a countdown that shows minutes and seconds remaining.
+
+✅ Part 2: Time Formatting and Countdown
+	1.	Display the time left in MM:SS format and update it every second using:
+	•	Thread.sleep() for waiting
+	•	Nested loops for minutes and seconds
+	•	System.out.print() with carriage return \r to update the same line
+
+✅ Part 3: Add Estimated End Time
+	1.	Create a method named addMinutes(int minutes) that:
+	•	Gets the current system time
+	•	Adds the break duration
+	•	Formats the end time in hh:mm AM/PM format using the Java Time API
+
+✅ Part 4: Add main() and call the method setBreakTime(15);
+
+________________________________________________
+Create a new package "week08" under src
+________________________________________________
+
+Create a class StringMethods and add main method:
+
+1) ----String comparison-----
+🔐 Password Check (Case-Sensitive)
+
+•	Declare a String variable correctPassword "secret123"
+•	Compare it with the inputPassword
+•	Use .equals() to check for an exact match
+•	Print "Access granted." or "Access denied. Incorrect password."
+---
+•	Declare a String variable correctUserName "secret123"
+•	Compare it with the inputUserName
+•	Use .equalsIgnoreCase() so user input is accepted even with case mismatch
+•	Print "Username found" or "Username not found, try again"
+
+2) ----concat-----
+
+Declare:
+String firstName = "John";
+String lastName = "Doe";
+
+Concat to String fullName with space in between then print out
+
+3) ----String case conversion-----
+Declare String city = "LoNDoN";
+Convert to lowercase and assign to String lowerCaseCity then print both
+
+Declare String bookName = "java programming";
+Convert to uppercase and print both cases
+
+Combine/Chain with equals:
+
+Declare String command = "StArT";
+
+Convert to lowercase then compare with "start":
+   print "Game is starting..." or "Unknown command."
+--------
+Declare String userAnswer = "YES";
+Convert to lowerCase then assign back to userAnswer
+Check If yes, print "You agreed." Otherwise, print "You declined."
+
+3) ----length-----
+Declare String word = "Java";
+Use .length() to get and print the number of characters.
+Use .length() to and assign to int wordLength then print out.
+
+String empty = "";
+Print the length of this string
+
+Declare message = "  Java is fun  ";
+Print the length including spaces
+
+--Check Password Length Rule--
+Declare String newPassword = "abc12"
+if length is 6 or more print "Password accepted." or "Password too short."
+
+4) ----charAt(int index)----
+
+Declare String city = "Rome";
+Print each character in a separate lines
+R
+o
+m
+e
+Declare String code = "XY123Z";
+Print the first and last character
+Loop through and print all characters one by one
+
+5) ----indexOf----
+
+-Find a Character:
+Declare String animal = "elephant"
+Find the index of 'p' then print out
+Assign index of 'e' to eIndex then print out
+
+-Find a Word in a Sentence:
+Declare String sentence = "Learning Java is fun!"
+Find the index of "Java" print "'Java' starts at index: $index"
+
+-When Not Found:
+Declare String studentName = "Daniel"
+Find the index of 'z' then print out
+
+-Check with if found:
+Declare String menu = "Coffee, Tea, Juice";
+Check if "tea" is in the menu, print appropriate message
+
+6) ----lastIndexOf----
+
+-Find Last ‘a’ in a Word:
+Declare String fruit = "banana";
+Find the last 'a' and assign to lastA then print out
+
+-Find Last Word Occurrence
+Declare String log = "error: file not found. error: retry";
+Find the last "error" and assign to int lastError then print out:
+    "Last 'error' starts at index: " + lastError
+
+-Check if ‘x’ Appears Only Once:
+Declare String str = "example" and char ch = 'x'
+if first and last index match for 'x' print "x is unique" or "x is not unique"
+
+7) ----substring----
+
+Extract First Name:
+Declare String fName = "John Doe";
+Extract first name and assign to String first then print out
+
+Get File Extension:
+Declare String fileName = "report.pdf";
+Extract file extension and assign to String extension then print out
+
+Extract company name from link
+Declare String link = "www.google.com";
+Use substring and indexOf to extract "google" then print out
+Change company name and rerun
+
+8) ----replace----
+
+Replace Characters in a Word:
+Declare String snack = "banana";
+Replace all 'a' to '*' then print out
+
+Replace all words:
+Declare String animals = "Cats are cute. Cats love naps.";
+Replace "Cats" with "Dogs" and assign to String changed then print out
+
+Remove empty spaces:
+Declare String discordMsg = "Hello Dear Future SDETs";
+Remove all empty spaces and assign back to discordMsg then print out
+
+9) ----replaceAll----
+
+Remove All Digits:
+Declare String input = "Order1234Confirmed";
+Replace all digits "[0-9]" with "" and assign to String cleaned then print out
+
+TODO: please complete
+10) ----trim----
+
+Trim Extra Spaces:
+Declare String inputStr = "   Java is awesome!   "; then print out
+Trim spaces and assign back to inputStr then print out
+
+11) ----contains----
+Check word:
+Declare String msg = "Learning Java is fun!";
+Check if it contains the word "Java"
+
+Check if log contains errors
+Declare String logs = "Success: user logged in;Error: invalid input;Warning: duplicate"
+Convert logs to lowercase then check if contains "error"
+
+12) ----startsWith----
+Greeting Checker:
+Declare String greeting = "Hello, how are you?";
+If greeting starts with "hello" print "A polite message"
+
+13) ----endsWith----
+Check programming language:
+Declare String program = "HelloWorld.java";
+if program ends with ".java" print "Java program"
+if program ends with ".kt" print "Kotlin program"
+if program ends with ".js" print "JavaScript program"
+if program ends with ".py" print "Python program"
+
+14) ----isEmpty----
+Null or Empty Check:
+Declare String username = "";
+Check if username is null or empty then print "Error: Username cannot be null or empty."
+Otherwise, "Welcome, " + username + "!"

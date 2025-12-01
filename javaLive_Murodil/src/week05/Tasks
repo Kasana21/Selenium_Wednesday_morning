@@ -1,0 +1,154 @@
+
+Create a new package "week05" under src
+________________________________________________
+
+1) Create a new class ForLoop and add a main method
+
+👋 Print "Hello Friends!" 10 times using a for loop
+
+💻 Print java - number 5 times in single line. java - 1 java - 2 java - 3 java - 4 java - 5
+
+⚙️ Print selenium - number 8 times in reverse:
+    selenium - 8
+    selenium - 7
+    ...
+    selenium - 1
+
+🏦 Calculate investment that grows in value by 20% every year
+- Declare and initialize int variable investmentAmount with 10_000
+- Write a loop starts with year = 2025 till year 2030
+- in every iteration print year - $increased amount - $investment amount
+
+📚You are looping through 1 million rows of data - 1 row at a time:
+-print status and row number every 100 thousand rows
+"Status : row 100000"
+"Status : row 200000"
+...
+"Status : row 1000000"
+________________________________________________
+
+2) Create a new class WhileLoop and add a main method:
+
+⏳ Print Numbers from 1 to 5
+-Declare an int counter = 1;
+-Use a while loop to print numbers 1 to 5
+
+💰Saving Until You Reach $100
+-Declare int savings = 0;
+-Use a while loop to keep adding $10 until total is at least $100
+-Print total after each addition
+-Add days variable to show number of days
+
+⏭Two pointer technique:
+-Declare int variables i and j, values 0 , 20
+-Use a while loop that increments i and decrements j as long as they are not equal
+-Print i and j inside the loop
+
+📖Reading Pages Until Book Ends
+-Declare int pagesLeft = 10;
+-Each day you read 2 pages
+-Use a while loop to simulate daily reading until pages are done
+-Print Pages left inside the loop
+-Book finished afterward
+________________________________________________
+
+3) Create a new class DoWhileLoop and add a main method:
+🔁 Print Numbers 1 to 5
+-Declare int i = 1;
+-Use a do-while loop to print numbers from 1 to 5
+
+🍽️ Eating Until Full (Minimum One Bite)
+-Declare int bites = 0;
+-Use do-while loop to eat at least once
+-Stop after 3 bites and say full
+________________________________________________
+
+4) Create a new class BreakContinue and add a main method:
+🚪 Exit Loop When Number is Found
+-Loop through numbers 1 to 10
+-Use break when number equals 5
+-Print message when number is found
+
+🔢 Skip Even Numbers
+-Loop 1 to 100
+-Use continue to skip even numbers
+-Print only odd numbers
+
+Work days 1 to 5.. 6(Saturday is off)
+Loop from 1 - 7 using days.
+When you reach 6 print "Weekend is off" and return(stop main method)
+________________________________________________
+
+5) Create a new class NestedLoop and add a main method:
+
+🔁 Multiplication Table (1 to 10)
+-Use an outer loop from 1 to 10 (for rows)
+-Use an inner loop from 1 to 10 (for columns)
+-Print multiplication results
+
+⌛ Show Days and Hours
+-Outer loop for 7 days: Day 1 to Day 7
+-Inner loop for 24 hours per day: Hour 0 and Hour 23
+- print day and hours in same line
+________________________________________________
+6) Create a new class FizzBuzz and add a main method
+-loop from 1 to 100
+-if number is divisible by 3 -> "Fizz"
+-if number is divisible by 5 -> "Buzz"
+-if number is divisible by 3 and 5 -> "FizzBuzz"
+-Otherwise print number itself
+________________________________________________
+
+7) Create a new class GreetingHours and add a main method
+-Loop 24 hours in a day and print greeting with hour:
+-Good morning -> 5 - 11
+-Good afternoon -> 12 - 17
+-Good evening -> 18 - 23, 0 - 4
+________________________________________________
+8) Create a new class PrimeNumber and add a main method
+
+Prime number is divisible by 1 and number itself. no other numbers
+
+num = 5
+check if num is divisible by 2,3,4
+
+num = 6
+check if num is divisible by 2,3,4,5
+if num is divisible by any number between 2 and num, then num is Not prime. otherwise prime
+________________________________________________
+
+9) Create a new class SumOfDigits and add a main method
+
+➕Sum of all digits.
+- use % 10, and / 10 to extract each digit and add to sum
+123 -> 3+2+1 -> 6
+333 -> 3+3+3 -> 9
+43214 -> 4+3+2+1+4 -> 14
+________________________________________________
+
+10) Create a new class ZombieAttack and add a main method
+
+🧟‍♂️ City population decreases by half each day due to Zombie attack:
+-Create a variable cityPopulation
+
+    Ex:
+      cityPopulation:
+        6
+
+      Output:
+        Day 0 [6]
+        Day 1 [3]
+        Day 2 [1]
+        ---- EXTINCT ----
+
+    Ex:
+      cityPopulation:
+        20
+
+      Output:
+        Day 0 [20]
+        Day 1 [10]
+        Day 2 [5]
+        Day 3 [2]
+        Day 4 [1]
+        ---- EXTINCT ----
